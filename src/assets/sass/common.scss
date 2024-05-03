@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$r500: "Roboto-Medium";
+$r400: "Roboto-Regular";
+$m700: "Montserrat-Bold";
+$m400: "Montserrat-Regular";
+$c700: "Comfortaa-Bold";
+$c400: "Comfortaa-Regular";
+$gold: #F18128;
+$darkblue: #040D1F;
+$white: #fff;
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background-color: $darkblue;
+}
+

@@ -1,10 +1,12 @@
 import React from 'react'
+import { collection } from '../dates/collections'
 
-const Main_collections = ({ main_collection }) => {
-    return (
-        <>
+const Section_collections = () => {
+  return (
+    <>
+    <>
             {
-                main_collection.map(values => (
+                collection.map(values => (
                     <div className="collect__card" key={values.title}>
                         <img className="collect__left" src={values.line} alt="" />
                         <img className="collect__right" src={values.line} alt="" />
@@ -15,7 +17,8 @@ const Main_collections = ({ main_collection }) => {
                 ))
             }
         </>
-    )
+    </>
+  )
 }
 
-export default Main_collections
+export default Section_collections

@@ -1,0 +1,63 @@
+$Roboto:("Medium",500),("Regular",400);
+$Comfortaa:("Bold",700),("Regular",400);
+$Montserrat:("Bold",700),("Regular",400);
+
+@each $name,$weight in $Roboto{
+    @font-face {
+        font-family: "Roboto-#{$name}";
+        src: url("../fonts/Roboto-#{$name}.ttf");
+        font-weight: $weight;
+    }
+}
+
+@each $name,$weight in $Comfortaa{
+    @font-face {
+        font-family: "Comfortaa-#{$name}";
+        src: url("../fonts/Comfortaa-#{$name}.ttf");
+        font-weight: $weight;
+    }
+}
+
+@each $name,$weight in $Montserrat{
+    @font-face {
+        font-family: "Montserrat-#{$name}";
+        src: url("../fonts/Montserrat-#{$name}.ttf");
+        font-weight: $weight;
+    }
+}
+
+
+
+
+// @font-face {
+//     font-family: "Comfortaa-Bold";
+//     src: url('./fonts/Comfortaa-Bold.ttf');
+//     font-weight: 700;
+// }
+// @font-face {
+//     font-family: "Comfortaa-Regular";
+//     src: url('./fonts/Comfortaa-Regular.ttf');
+//     font-weight: 400;
+// }
+// @font-face {
+//     font-family: "Montserrat-Bold";
+//     src: url('./fonts/Montserrat-Bold.ttf');
+//     font-weight: 700;
+// }
+// @font-face {
+//     font-family: "Montserrat-Regular";
+//     src: url('./fonts/Montserrat-Regular.ttf');
+//     font-weight: 400;
+// }
+
+// @font-face {
+//     font-family: "Roboto-Medium";
+//     src: url('./fonts/Roboto-Medium.ttf');
+//     font-weight: 500;
+// }
+
+// @font-face {
+//     font-family: "Roboto-Regular";
+//     src: url('./fonts/Roboto-Regular.ttf');
+//     font-weight: 400;
+// }
